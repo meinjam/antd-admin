@@ -33,3 +33,9 @@
   margin: 16px;
   background: rgba(255, 255, 255, 0.3);
 }
+
+.semi-header {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-top: 1px solid #e7e6e6;
+}

@@ -8,6 +8,7 @@ import {
 import { Layout, Menu } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import DateRangePicker from '../common/DateRangePicker';
 
 const { Header, Sider, Content, Footer } = Layout;
 
@@ -93,6 +94,10 @@ const AdminMaster = ({ children }) => {
             onClick: () => setCollapsed(!collapsed),
           })}
         </Header>
+        <div className='semi-header'>
+          {/* <span>hello</span> */}
+          <DateRangePicker />
+        </div>
         <Content
           className='site-layout-background'
           style={{
